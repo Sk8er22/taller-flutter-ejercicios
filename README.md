@@ -13,10 +13,9 @@ Cada carpeta tiene un `README.md` con el enunciado y un `starter` para empezar. 
 | 3 bis | Navegación | `ex3b_navegacion` | 10 min | https://dartpad.dev/?id=31a73e60b1132107aa95a44050416cec |
 | 4 | Lista local (UI) | `ex4_lista_local` | 15 min | https://dartpad.dev/?id=cbcf9d235ee6e057f1918cb76ed955c1 |
 | 5 | Pokédex con API | `ex5_pokedex` | 25 min | https://dartpad.dev/?id=df229bc6d66702f69c8f43dd9a8456e0 |
-| 6a | Fork del template: interfaz | `ex6a_fork_ui` | 15 min | en local, con tu fork |
-| 6b | Fork del template: datos | `ex6b_fork_datos` | 15 min | en local, con tu fork |
+| 6 | Fork del template, solo interfaz | `ex6_fork` | 15 min | en local, con tu fork |
 
-Los ejercicios 6a y 6b van al final y se hacen en local, sobre tu fork del template. Si no arranca, repite el 4 y el 5.
+El ejercicio 6 va al final y se hace en local, sobre tu fork. Si no arranca, haz el extra del 4 o del 5 en DartPad.
 
 ## Preparación (para trabajar en local)
 

@@ -1,4 +1,4 @@
-# Ejercicio 3 — Botón de me gusta (8 min)
+# Ejercicio 3 — Botón de me gusta (10 min)
 
 **Abrir en DartPad:** https://dartpad.dev/?id=b63a20b25c2cbe60bd2f77a2bf96ecb2
 

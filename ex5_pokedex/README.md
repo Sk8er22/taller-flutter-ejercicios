@@ -21,6 +21,14 @@ El Repository y los estados ya están. Tú completas tres TODO:
 
 Prueba el error: apaga el wifi o cambia la URL y comprueba que aparece el botón Reintentar.
 
+## Retos (25 min)
+
+1. Completa los tres TODO: Service, Cubit y página.
+2. Rompe la URL a propósito: debe aparecer el estado de error con el botón Reintentar.
+3. Cambia el endpoint o añade un campo del JSON (por ejemplo `height`) y píntalo en pantalla.
+
+Extra: pantalla de detalle con imagen y tipos, o el test del Repository en local con `flutter test` (los tests no se pueden ejecutar en DartPad).
+
 ## Extra
 
 Pantalla de detalle con imagen y tipos: `GET https://pokeapi.co/api/v2/pokemon/{nombre}`.
