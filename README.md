@@ -20,7 +20,7 @@ Los ejercicios 6a y 6b van al final y se hacen en local, sobre tu fork del templ
 
 ## Preparación (para trabajar en local)
 
-1. Instala Visual Studio Code y la extensión Flutter.
+1. Instala Visual Studio Code y la extensión Flutter. Extensiones recomendadas: https://gist.github.com/Sk8er22/db2a1e20b97a9b8c5c067c7340419d0a
 2. Instala el SDK: paleta de comandos, `Flutter: New Project`, `Download SDK`.
 3. Ejecuta `flutter doctor`. Necesitas Flutter y Chrome en verde.
 4. Guía oficial: https://docs.flutter.dev/install/with-vs-code
