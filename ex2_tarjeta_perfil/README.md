@@ -1,4 +1,4 @@
-# Ejercicio 2 — Tarjeta de perfil (8 min)
+# Ejercicio 2 — Tarjeta de perfil (10 min)
 
 **Abrir en DartPad:** https://dartpad.dev/?id=596208b7be33893f36f64fd9b11d2258
 
