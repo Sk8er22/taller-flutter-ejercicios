@@ -4,7 +4,10 @@ Base: https://github.com/Sk8er22/flutter-template-taller (fork de levin-riegner/
 
 1. `git clone [URL de tu fork]` y `cd flutter-template-taller`.
 2. `fvm install`, `flutter pub get`, `dart run build_runner build --delete-conflicting-outputs`.
-3. `flutter run -d chrome -t lib/main_qa.dart`.
+3. Crea tu clave gratis de NewsAPI en https://newsapi.org/register.
+4. `flutter run -d chrome -t lib/main_qa.dart --dart-define=NEWS_API_KEY=TU_CLAVE`.
+
+Sin tu clave, la app usa una compartida que puede agotarse durante el taller (la lista de artículos muestra un error); los retos de interfaz se pueden hacer igual.
 
 ## Retos
 1. Cambia el color del tema.
