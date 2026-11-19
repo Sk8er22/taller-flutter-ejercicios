@@ -1,4 +1,4 @@
-# Ejercicio 4: fork del template, retos de interfaz (15 min)
+# Ejercicio 6a: fork del template, retos de interfaz (15 min)
 
 Base: fork de levin-riegner/flutter-template. Comprueba la licencia antes de publicarlo.
 
@@ -13,4 +13,4 @@ Base: fork de levin-riegner/flutter-template. Comprueba la licencia antes de pub
 
 Bonus: cambia el icono principal o añade un botón.
 
-Plan B si el fork no arranca: `ex4_lista_local`.
+Si el fork no arranca: repite el ejercicio 4 (`ex4_lista_local`).
