@@ -1,6 +1,10 @@
 # Ejercicio 6: fork del template, retos de interfaz (15 min)
 
-Base: https://github.com/Sk8er22/flutter-template-taller (fork de levin-riegner/flutter-template, licencia MIT). Haz tu propio fork de ese repo.
+Base: https://github.com/Sk8er22/flutter-template-taller. Haz tu propio fork de ese repo.
+
+Usa este repo y no el template original. Es una copia preparada para el taller: arranca en Chrome, usa la versión de Flutter del taller y acepta tu clave de NewsAPI. El original no arranca en Chrome ni con esa versión de Flutter.
+
+Créditos: el código viene de levin-riegner/flutter-template (licencia MIT). No necesitas ese repo para el ejercicio.
 
 1. `git clone [URL de tu fork]` y `cd flutter-template-taller`.
 2. `fvm install`, `flutter pub get`, `dart run build_runner build --delete-conflicting-outputs`.
