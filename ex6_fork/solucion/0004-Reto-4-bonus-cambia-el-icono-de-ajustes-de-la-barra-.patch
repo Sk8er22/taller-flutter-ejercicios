@@ -1,0 +1,31 @@
+From 6d5270cc2c4dead1f0458b538ebc104ab5bc4f0e Mon Sep 17 00:00:00 2001
+From: Sk8er22 <Sk8er22@users.noreply.github.com>
+Date: Thu, 19 Nov 2026 05:56:05 +0100
+Subject: [PATCH 4/4] Reto 4 (bonus): cambia el icono de ajustes de la barra
+ superior
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Icons.settings pasa a Icons.tune. El botón sigue abriendo Ajustes y el
+cambio se ve con un hot reload.
+---
+ lib/presentation/bottom_navigation/bottom_navigation_page.dart | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/presentation/bottom_navigation/bottom_navigation_page.dart b/lib/presentation/bottom_navigation/bottom_navigation_page.dart
+index 65f04d6..15d5b9f 100644
+--- a/lib/presentation/bottom_navigation/bottom_navigation_page.dart
++++ b/lib/presentation/bottom_navigation/bottom_navigation_page.dart
+@@ -29,7 +29,7 @@ class BottomNavigationPage extends StatelessWidget {
+             onPressed: () {
+               const SettingsRoute().push(context);
+             },
+-            icon: const Icon(Icons.settings),
++            icon: const Icon(Icons.tune),
+           ),
+         ],
+       ),
+-- 
+2.54.0 (Apple Git-157)
+

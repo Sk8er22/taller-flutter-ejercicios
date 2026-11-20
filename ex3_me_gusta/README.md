@@ -12,7 +12,7 @@ Pista: `liked ? Icons.favorite : Icons.favorite_border`.
 
 **Extra:** cambia el color del corazón según el estado.
 
-Solución: se publicará después del taller.
+Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=5f7b0578af10d2efb645b2c1e5600375
 
 ## Chuleta a medias (sin solución)
 - Dos clases: `StatefulWidget` y su `State`. Los datos viven en el State.

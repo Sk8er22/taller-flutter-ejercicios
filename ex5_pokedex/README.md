@@ -35,7 +35,8 @@ Pantalla de detalle con imagen y tipos: `GET https://pokeapi.co/api/v2/pokemon/{
 
 ## Solución
 
-Se publicará después del taller.
+- En DartPad: https://dartpad.dev/?id=f081e6ec67a12db02b7452d39b98afb4 (el mismo código que [`dartpad_solution.dart`](dartpad_solution.dart), todo en un archivo).
+- En local: copia el contenido de [`solution/lib`](solution/lib) en tu `lib/` y el de [`solution/test`](solution/test) en tu `test/`. El test del Cubit se ejecuta con `flutter test test/pokemon_cubit_test.dart`.
 
 ## Flujo de datos
 

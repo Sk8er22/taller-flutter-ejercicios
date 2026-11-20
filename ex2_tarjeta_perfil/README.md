@@ -12,7 +12,7 @@ Pega `starter.dart` en DartPad.
 
 Errores típicos: olvidar la coma final, o usar `child` donde toca `children`.
 
-Solución: se publicará después del taller.
+Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=ce379f852211732c2dd385403f10201f
 
 ## Chuleta a medias (sin solución)
 - `Column` y `Row`: `children: [ … ]`. `Padding`: `padding: EdgeInsets.all(24)` y un solo `child:`.

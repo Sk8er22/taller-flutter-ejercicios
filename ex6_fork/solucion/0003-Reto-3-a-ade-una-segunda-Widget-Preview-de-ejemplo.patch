@@ -1,0 +1,36 @@
+From 37a7a6e40a6bb628b65d5d8a2919802f1a17ce6e Mon Sep 17 00:00:00 2001
+From: Sk8er22 <Sk8er22@users.noreply.github.com>
+Date: Thu, 19 Nov 2026 05:55:47 +0100
+Subject: [PATCH 3/4] =?UTF-8?q?Reto=203:=20a=C3=B1ade=20una=20segunda=20Wi?=
+ =?UTF-8?q?dget=20Preview=20de=20ejemplo?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+El reto es abrir la preview de DSErrorView con
+`fvm flutter widget-preview start`. Como ejemplo de escribir una, se añade
+otra de DSLoadingIndicator con el tema de la app; no necesita
+localizations porque el widget no lee textos del ARB.
+---
+ .../shared/design_system/views/ds_loading_indicator.dart     | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/lib/presentation/shared/design_system/views/ds_loading_indicator.dart b/lib/presentation/shared/design_system/views/ds_loading_indicator.dart
+index cf6042c..a8b03a5 100644
+--- a/lib/presentation/shared/design_system/views/ds_loading_indicator.dart
++++ b/lib/presentation/shared/design_system/views/ds_loading_indicator.dart
+@@ -1,6 +1,11 @@
+ import 'dart:math' as math show sin, pi;
+ 
+ import 'package:flutter/material.dart';
++import 'package:flutter/widget_previews.dart';
++import 'package:flutter_template/presentation/shared/design_system/theme/theme_factory.dart';
++
++@Preview(name: 'DSLoadingIndicator', theme: previewTheme)
++Widget dsLoadingIndicatorPreview() => const DSLoadingIndicator(size: 40);
+ 
+ class DSLoadingIndicator extends StatefulWidget {
+   final Color? color;
+-- 
+2.54.0 (Apple Git-157)
+
