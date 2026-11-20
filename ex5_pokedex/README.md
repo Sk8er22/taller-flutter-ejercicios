@@ -1,5 +1,7 @@
 # Ejercicio 5 — Pokédex con API (25 min)
 
+[← Lista local (UI)](../ex4_lista_local/README.md) · [Índice](../README.md) · [Fork del template, solo interfaz →](../ex6_fork/README.md)
+
 **Abrir en DartPad:** https://dartpad.dev/?id=df229bc6d66702f69c8f43dd9a8456e0
 
 Consume https://pokeapi.co (gratis, sin clave) con arquitectura en capas y Cubit.
@@ -45,3 +47,5 @@ Service (API) → Repository → Cubit (estado) → UI
 ## En DartPad (sin instalar nada)
 
 `dartpad_starter.dart` es la misma app en un solo archivo, con paquetes que DartPad permite (flutter_bloc y http). Abre el gist del ejercicio 5 (enlace arriba). Los tests (`flutter test`) no se pueden ejecutar en DartPad.
+
+[← Lista local (UI)](../ex4_lista_local/README.md) · [Índice](../README.md) · [Fork del template, solo interfaz →](../ex6_fork/README.md)

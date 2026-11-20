@@ -1,5 +1,7 @@
 # Ejercicio 2 — Tarjeta de perfil (10 min)
 
+[← Contador](../ex1_contador/README.md) · [Índice](../README.md) · [Me gusta →](../ex3_me_gusta/README.md)
+
 **Abrir en DartPad:** https://dartpad.dev/?id=596208b7be33893f36f64fd9b11d2258
 
 Pega `starter.dart` en DartPad.
@@ -19,3 +21,5 @@ Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id
 - `Text('…', style: TextStyle(fontSize: 24))`, `Icon(Icons.email)`, `SizedBox(height: 8)`.
 - Extra: `CircleAvatar(child: Text('AG'))`.
 - Orden de dentro a fuera: Row, Column, Padding.
+
+[← Contador](../ex1_contador/README.md) · [Índice](../README.md) · [Me gusta →](../ex3_me_gusta/README.md)

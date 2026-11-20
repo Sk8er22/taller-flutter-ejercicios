@@ -1,5 +1,7 @@
 # Ejercicio 3 bis — Navega entre dos pantallas (10 min, opcional)
 
+[← Me gusta](../ex3_me_gusta/README.md) · [Índice](../README.md) · [Lista local (UI) →](../ex4_lista_local/README.md)
+
 **Abrir en DartPad:** https://dartpad.dev/?id=31a73e60b1132107aa95a44050416cec
 
 Pega `starter.dart` en DartPad.
@@ -19,3 +21,5 @@ Pega `starter.dart` en DartPad.
 - Extra: `final String name;` y `required this.name` en el constructor.
 
 Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=b302df7fc4a21683ab6beef32cfbc5e6
+
+[← Me gusta](../ex3_me_gusta/README.md) · [Índice](../README.md) · [Lista local (UI) →](../ex4_lista_local/README.md)

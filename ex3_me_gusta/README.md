@@ -1,5 +1,7 @@
 # Ejercicio 3 — Botón de me gusta (10 min)
 
+[← Tarjeta de perfil](../ex2_tarjeta_perfil/README.md) · [Índice](../README.md) · [Navegación →](../ex3b_navegacion/README.md)
+
 **Abrir en DartPad:** https://dartpad.dev/?id=b63a20b25c2cbe60bd2f77a2bf96ecb2
 
 Pega `starter.dart` en DartPad.
@@ -20,3 +22,5 @@ Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id
 - `setState(() { … })` cambia los datos y redibuja.
 - `IconButton(onPressed: …, icon: …)` y ternario `cond ? a : b`.
 - Pregunta guía: ¿qué dos valores cambian al tocar?
+
+[← Tarjeta de perfil](../ex2_tarjeta_perfil/README.md) · [Índice](../README.md) · [Navegación →](../ex3b_navegacion/README.md)
