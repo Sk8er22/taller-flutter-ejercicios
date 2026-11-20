@@ -12,7 +12,7 @@ Crea el proyecto (ver README raíz) y sustituye `lib/main.dart` por `starter.dar
 
 Guarda tu resultado: es la UI del ejercicio 5.
 
-Solución: se publicará después del taller.
+Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=0103cb441d6b44a9d77ef22d0d073e0e
 
 ## En DartPad
 

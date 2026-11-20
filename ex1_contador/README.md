@@ -14,4 +14,4 @@ Abre https://dartpad.dev, elige Flutter y pega `starter.dart` (es el código por
 
 Reto social: enseña tu pantalla a tu vecino.
 
-Solución: se publicará después del taller.
+Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=a45e0e66d3cab73ef6e2ad92a8fdcfae

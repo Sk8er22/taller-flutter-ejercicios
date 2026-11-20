@@ -1,0 +1,31 @@
+From 9302e441f557f1c86df6d524e3ca4896edd9fe46 Mon Sep 17 00:00:00 2001
+From: Sk8er22 <Sk8er22@users.noreply.github.com>
+Date: Thu, 19 Nov 2026 05:54:51 +0100
+Subject: [PATCH 1/4] Reto 1: cambia el color principal del tema a verde
+ azulado
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+AppColors.yellow es el color primary del tema claro y del oscuro. Basta
+con un hot reload para verlo en el botón REFRESH y en los puntos de carga.
+---
+ lib/presentation/shared/design_system/theme/app_colors.dart | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/presentation/shared/design_system/theme/app_colors.dart b/lib/presentation/shared/design_system/theme/app_colors.dart
+index b8e8e45..bec402f 100644
+--- a/lib/presentation/shared/design_system/theme/app_colors.dart
++++ b/lib/presentation/shared/design_system/theme/app_colors.dart
+@@ -3,7 +3,7 @@ import 'dart:ui';
+ abstract class AppColors {
+   const AppColors._();
+ 
+-  static const yellow = Color(0xFFFEBE10);
++  static const yellow = Color(0xFF009688);
+   static const accent = Color(0xFFFAA21B);
+   static const black = Color(0xFF000000);
+   static const white = Color(0xFFFFFFFF);
+-- 
+2.54.0 (Apple Git-157)
+

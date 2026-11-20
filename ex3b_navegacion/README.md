@@ -18,4 +18,4 @@ Pega `starter.dart` en DartPad.
 - Trampa: el botón va dentro de `HomePage`, no directo en `MyApp`. El `context` debe estar por debajo de `MaterialApp`.
 - Extra: `final String name;` y `required this.name` en el constructor.
 
-Solución: se publicará después del taller.
+Solución: [`solution.dart`](solution.dart). En DartPad: https://dartpad.dev/?id=b302df7fc4a21683ab6beef32cfbc5e6

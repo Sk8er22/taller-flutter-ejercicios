@@ -1,0 +1,29 @@
+From 0a8056b51a7b33a009fd0352b9241712ae9bc3d5 Mon Sep 17 00:00:00 2001
+From: Sk8er22 <Sk8er22@users.noreply.github.com>
+Date: Thu, 19 Nov 2026 05:55:05 +0100
+Subject: [PATCH 2/4] =?UTF-8?q?Reto=202:=20cambia=20el=20t=C3=ADtulo=20de?=
+ =?UTF-8?q?=20la=20pantalla=20principal=20desde=20app=5Fen.arb?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Solo se edita el ARB. flutter run vuelve a generar los textos en cada hot
+reload, así que el nuevo título aparece sin reiniciar la app.
+---
+ lib/app/l10n/app_en.arb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/app/l10n/app_en.arb b/lib/app/l10n/app_en.arb
+index 6653a96..29fb82e 100644
+--- a/lib/app/l10n/app_en.arb
++++ b/lib/app/l10n/app_en.arb
+@@ -1,5 +1,5 @@
+ {
+-  "appTitle": "Flutter Template",
++  "appTitle": "Taller Flutter",
+   "@appTitle": {
+     "description": "Title shown in the app bar of the main screen"
+   },
+-- 
+2.54.0 (Apple Git-157)
+
