@@ -1,11 +1,12 @@
 # Ejercicio 6: fork del template, retos de interfaz (15 min)
 
-Base: https://github.com/Sk8er22/flutter-template-taller (fork de levin-riegner/flutter-template, licencia MIT). Haz tu propio fork de ese repo.
+Repo del ejercicio: https://github.com/Sk8er22/flutter-template-taller
 
-1. `git clone [URL de tu fork]` y `cd flutter-template-taller`.
-2. `fvm install`, `flutter pub get`, `dart run build_runner build --delete-conflicting-outputs`.
-3. Crea tu clave gratis de NewsAPI en https://newsapi.org/register.
-4. `flutter run -d chrome -t lib/main_qa.dart --dart-define=NEWS_API_KEY=TU_CLAVE`.
+1. Haz tu fork: https://github.com/Sk8er22/flutter-template-taller/fork
+2. `git clone https://github.com/TU_USUARIO/flutter-template-taller.git` y `cd flutter-template-taller`.
+3. `fvm install`, `flutter pub get`, `dart run build_runner build --delete-conflicting-outputs`.
+4. Crea tu clave gratis de NewsAPI: https://newsapi.org/register
+5. `flutter run -d chrome -t lib/main_qa.dart --dart-define=NEWS_API_KEY=TU_CLAVE`.
 
 Sin tu clave, la app usa una compartida que puede agotarse durante el taller (la lista de artículos muestra un error); los retos de interfaz se pueden hacer igual.
 
