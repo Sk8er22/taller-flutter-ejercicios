@@ -2,6 +2,25 @@
 
 Cada carpeta tiene un `README.md` con el enunciado y un `starter` para empezar. Las soluciones están en la carpeta de cada ejercicio (y en DartPad, en la columna Solución).
 
+## Presentación
+
+Diapositivas del taller: https://docs.google.com/presentation/d/1EWyJTrW35MnpPxEGHBb-OJGr4iwrk3a94fSFGd9Souw/edit?usp=sharing
+
+## Aclaración: `context` no es para leer el estado
+
+En clase lo expliqué mal. El `BuildContext` es la posición de tu widget en el árbol de widgets. Sirve para buscar hacia arriba lo que ofrecen los widgets padre:
+
+- `Theme.of(context)`: el tema que define `MaterialApp`.
+- `Navigator.of(context)`: el navegador, para cambiar de pantalla.
+- `MediaQuery.of(context)`: el tamaño de la pantalla.
+- `context.read<PokemonCubit>()`: el Cubit que un `BlocProvider` puso más arriba.
+
+El estado de un `StatefulWidget` no se lee con `context`. Vive en su clase `State`: lo lees directamente (`likes`) y lo cambias con `setState`.
+
+Con Bloc sí usas `context`, pero solo para encontrar el Cubit en un widget padre. El estado lo guarda el Cubit, no el `context`.
+
+Por eso, en el ejercicio 3 bis, el botón tiene que estar por debajo de `MaterialApp`: desde más arriba, `Navigator.of(context)` no encuentra nada.
+
 ## Abrir en DartPad (sin instalar nada)
 
 | # | Ejercicio | Carpeta | Tiempo | DartPad | Solución |
